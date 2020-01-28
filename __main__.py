@@ -9,8 +9,6 @@ def main():
 
     for a in arguments:
         name, value = a.split("=")
-
-        print( name, value)
         argv[name] = value
 
     env = Environment()
